@@ -4,6 +4,7 @@ using Microsoft.Data.SqlClient;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 var apiKey = builder.Configuration["ApiKey"]; // not in code
+const string TestApiKey = "Qw7Zr2Lp9Xv4Tn6Bk1Mj8Hs3Df5Gy0Ua";
 const string Conn = @"Server=(localdb)\MSSQLLocalDB;" +
                     "Database=Guestbook;Integrated Security=True";
 
